@@ -1,0 +1,1297 @@
+﻿YooAsset Duplicate Report
+GeneratedAt: 2025-11-04 19:52:07
+ReportsUsed: 2
+
+AssetPath | Count
+-----------------
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/ManufactureViewUIEffect.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/ManufactureViewUIEffect.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AbyssFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_abyssFire02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AbyssFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AbyssFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AbyssFBView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_abyssFire01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityCenterView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityCenterView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/ActivityArcadeExchangePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/ActivityArcadeExchangePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/ActivityArcadeTaskPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/ActivityArcadeTaskPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/CouponSaleAcPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/CouponSaleAcPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/CouponSaleAcPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/CouponSaleAcPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/LevelInvestPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/LevelInvestPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/NewServerAdventureNotesPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ActivityView/NewServerAdventureNotesPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AdventureGroupView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AdventureGroupView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AdventureGroupView/AdventureGroupShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/AdventureGroupView/AdventureGroupShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArcadeView/ArcadeAreaRankPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArcadeView/ArcadeAreaRankPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArtifactMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArtifactMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArtifactMakeView/ArtifactEvolutionPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArtifactMakeView/ArtifactEvolutionPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ArtifactMakeView/EquipRecastPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Chongzhu_01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BackpackView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BackpackView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BatchGrowthView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Growth_PLYHCGTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BatchGrowthView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Growth_PLYHTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BatchGrowthView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BatchGrowthView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleEditorView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleEditorView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleHudView.prefab依赖的Assets/ManagedAssets/InitialAssets/Animation/UI/SkillImgAnimation/UI_SkillShake.anim
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_GrayDefault.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleTopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-GrayDefault.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skill_liuguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skillCdFinish.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_GrayDefault.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight4.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-GrayDefault.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BloodView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/BloodView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/Carnival/CarnivalBigGiftPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/Carnival/CarnivalBigGiftPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/CarnivalActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/CarnivalActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ChallengeFbView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ChallengeFbView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/CustomRoomReadyView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_lk_by3v3.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/CustomRoomView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/CustomRoomView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/DialogView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/DialogView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipAutoReinforceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_YHCG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipAutoReinforceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_YHSB.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipAutoReinforceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipAutoReinforceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipCompareView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipCompareView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipFbView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipFbView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecastDescView.prefab依赖的Assets/ManagedAssets/InitialAssets/Animation/UI/EquipRecastAnimation/eff_btn_qz_zbzj_texiao.anim
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecastDescView.prefab依赖的Assets/ManagedAssets/InitialAssets/Animation/UI/EquipRecastAnimation/eff_btn_qz_zbzj_texiao.controller
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecastDescView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Zhuanjia_03.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecastView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Chongzhu_01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecastView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Chongzhu_02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecommendView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipRecommendView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipEnchantPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipEnchantPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipEnchantPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipEnchantPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_XFCG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_YHSB.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_YHZYCG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel/EquipExoticPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel/EquipExoticPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel/EquipTransferPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipGrowthPanel/EquipTransferPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipJewelryPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_FMSJCG_1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipJewelryPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_FMSJSB_1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipJewelryPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Jewelry_XQCGTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipJewelryPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipJewelryPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipReinforcePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipGrowth_XFCG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipReinforcePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipReinforcePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipReinforcePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipReinforcePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipWashPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_JLLG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipWashPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/EquipSlotRefineView/EquipWashPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FarplaneFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FarplaneFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionAppearView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionAppearView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionIntegrationView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionIntegrationView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionMixView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionMixView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionRenewView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FashionRenewView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FeedBackView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FeedBackView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FightValueUpView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/UI/SkillView/Effect_UI_SkillView_zhanlitisheng_lizi.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FightValueUpView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/UI/SkillView/Effect_UI_SkillView_zhanlitisheng_shaoguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_cards.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip03.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX3.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX4.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX5.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX6.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX7.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX8.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FloatIntroduceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FloatIntroduceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FollowGiftPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/FollowGiftPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GenreGuidelinesView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GenreGuidelinesView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GetStrongerView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GetStrongerView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuidePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_YDZSGTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBonusView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBonusView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildBossMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildDetailView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildDetailView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildDetailView/GuildShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildDetailView/GuildShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildSignView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildSignView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/GuildTreasuryView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SupremeBox_FXTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/HandBookView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/HandBookView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/HonourPassView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_honorSeason01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/HonourPassView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/HonourPassView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ItemUseView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ItemUseView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderHonorView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderHonorView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderRankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderRankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderWatchBattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LadderWatchBattleView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LinkPackageView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LinkPackageView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginViewSelectPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginViewSelectPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginViewSelectPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LoginViewSelectPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LookPlayerinfoView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LookPlayerinfoView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LookPlayerInfoView/LookPlayerSkillPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/LookPlayerInfoView/LookPlayerSkillPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MagicBoxResultPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SSZM_FP_F.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MagicBoxResultPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SSZM_FP_F1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MagicBoxResultPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SSZM_FP_J.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MagicBoxResultPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SSZM_FP_J1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MailView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MailView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainCityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainCityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsBossView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBDetailsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBEndFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBEndFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBEndFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBEndFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_chapterReward01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/MainFBView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_mainRaid02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/EquipSynthesisPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/EquipSynthesisPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/GoldMagicBoxMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_EquipBoxMaking_UI_BGTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/GoldMagicBoxMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_EquipSympathize_UI_GZCN.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/GoldMagicBoxMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_MagicBox_FZTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ManufactureView/GoldMagicBoxMakeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_MagicBox_ZZTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/NewServerActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/NewServerActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/NewServerTargetView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_XFMBHBTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/OptionalGiftView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/OptionalGiftView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PetView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PetView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PetView/PetSkillInfoPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PetView/PetSkillInfoPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PlayerTagsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PlayerTagsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PreciousDepositsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/UI/PreciousDepositsView/Effect_UI_PreciousDepositsView_Baozhu_Jing.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PreciousDepositsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PreciousDepositsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu2.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu2.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu3.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu3.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu4.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenu4.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenuOld.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/PrefabComponent/LeftMenuOld.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/QuestionnaireView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/QuestionnaireView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/QuestRewardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/QuestRewardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidDevilListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidDevilListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidInviteView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidInviteView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RaidView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RankView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ResourcePVP1v1LoadingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Mask_ResourcePVPFinishView.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ResourcePVP1v1LoadingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-ImageMask.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ResourcePVPFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Mask_ResourcePVPFinishView.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ResourcePVPFinishView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-ImageMask.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ReturnActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ReturnActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/RuneView/RunePagePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_FW_XQ.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SelectJobGroupView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_YDZSGTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SetAreaView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SetAreaView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SettingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SettingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/ExchangeShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/ExchangeShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/FashionShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/FashionShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/HotShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/HotShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/RechargeShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ShopView/RechargeShopPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SkillView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/Effect_UI_SkillView_hecheng.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SkillView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/Effect_UI_SkillView_xuanzhong.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SkillView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SkillView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_cards.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_equip03.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX3.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX4.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX5.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX6.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX7.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SpecialFlipCardView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_Equity_MYLB_FXTX8.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SprintActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/SprintActivityView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/StoreHouseUseItemTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/StoreHouseUseItemTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamListView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamMatchView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamMatchView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamMemberView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamMemberView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamSettingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TeamSettingView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TechnologyPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TechnologyPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TechnologyPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TechnologyPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TicketAutoUpgradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TicketAutoUpgradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TicketUpgradeSuccView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_GrowthUpgradeTicket_JSTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TimelineBgView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TimelineBgView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TransformJobView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/TransformJobView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/UpgradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_lby_dengjitisheng.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/UpgradeView.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_lby_jinengjiesuo.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/UseItemTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/UseItemTipsView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameLevelUpView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameLevelUpView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameMainView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameRandIntroduceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/VGameRandIntroduceView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/AlienAbyssPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/AlienAbyssPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CommonColumn.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CommonColumn.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CommonSliderItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CommonSliderItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CustomRoomInfoPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/CustomRoomInfoPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/DragonBoatPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/DragonBoatPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/EquipCompareItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/EquipCompareItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/EquipSympathizeAttrItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/EquipSympathizeAttrItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/GashaponPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SoulLink_TXDJTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/GodFashionPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_SYSZTXANTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/GuildSignInView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/GuildSignInView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/HarvestPlantPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_FSJLZ.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/IronBoxPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_sszm_sswz.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/ItemSNKFashionPart.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/ItemSNKFashionPart.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MainMiniChatPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MainMiniChatPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MainTypeSkills.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MainTypeSkills.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MidAutumnPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_activeMoon01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MidAutumnPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_activeMoon02.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MyPvpRoomPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/MyPvpRoomPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/PetColliderPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_liuguang01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/PveFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_GrayDefault.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/PveFightView.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-GrayDefault.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/ScratchTicketPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_liuguang01.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillComponent.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillComponent.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skill_liuguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skillCdFinish.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem2.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem2.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem2.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem2.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skill_liuguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skillCdFinish.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem3.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skill_liuguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skillCdFinish.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem4.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skill_liuguang.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_skillCdFinish.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SkillItem5.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SNKSkillItemAddach.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Gray.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SNKSkillItemAddach.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-DefaultGray.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SpaceRiftAbyssListPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_AbyssPass_ICON.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SpaceRiftAbyssListPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight3.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SpaceRiftAbyssListPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SpringKitePanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_LTT.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/StarForgeConsumeItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipCasting_XXTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/StarForgeConsumeItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_EquipForge_XHTX.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SubTypeSkills.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SubTypeSkills.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SummerTarotCardsPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_XRFP_1.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SummerTarotCardsPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_XRFP_2.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SummerTarotCardsPanel.prefab依赖的Assets/ManagedAssets/InitialAssets/Effect/EF_UI_XRKBSG.prefab
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SysMecItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_GrayDefault.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/SysMecItem.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-GrayDefault.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/TiledLayout.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI_Default_Gamma.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/Prefab/ViewComponent/TiledLayout.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Default-Gamma.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/HeroHud.prefab依赖的Assets/ManagedAssets/InitialAssets/Materials/UI/UI-Flowlight.mat
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/HeroHud.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-Flowlight.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UICreateMod.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModel.mat依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelPet.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelPlayer.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelPlayerMat.mat依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelShadow.mat依赖的Assets/ManagedAssets/InitialAssets/Shader/Transparent-Shadow.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelSpin.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModelTeam.mat依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModPets.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModTeam.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/Transparent-Shadow.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIModTeam.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIOtherMod.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测到UIs中的
+      Assets/ManagedAssets/UIs/UI/UIModel/UIOtherModDrop.prefab依赖的Assets/ManagedAssets/InitialAssets/Shader/UI/UI-RTRender.shader
+            存在于InitialAssets中！
+检测完成，重复资源：430 项，已写入：F:/mylibrary/YooAssetUtils/Assets/ReportsDemo/duplicate_assets.txt
