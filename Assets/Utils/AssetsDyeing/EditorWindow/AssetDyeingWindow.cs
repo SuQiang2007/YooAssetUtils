@@ -79,11 +79,13 @@ public class AssetDyeingWindow : OdinEditorWindow
         }
         TrySubscribe(Messenger);
 
-        var aa = new ReportPathItem();
-        aa.Path = "Assets/DemoResources/TestAssets/UIs";
-        aa.JoinCheck = true;
-        aa.NotShow = false;
-        ReportPaths.Add(aa);
+        // var aa = new ReportPathItem();
+        // aa.Path = "Assets/DemoResources/TestAssets/UIs";
+        // aa.JoinCheck = true;
+        // aa.NotShow = false;
+        // ReportPaths.Add(aa);
+        DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
+        DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, true);
 
         string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
         string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
@@ -136,15 +138,20 @@ public class AssetDyeingWindow : OdinEditorWindow
         var path = EditorUtility.OpenFolderPanel("Select folder", Application.dataPath, "");
         if (!string.IsNullOrEmpty(path))
         {
-            // if (!path.EndsWith(".report"))
-            // {
-            //     EditorUtility.DisplayDialog("Invalid File", "Please select a file with .report suffix.", "OK");
-            //     return;
-            // }
-			if (!ReportPaths.Exists(p => p != null && p.Path == path))
+            DoAddReportPath(path);
+        }
+    }
+
+    private void DoAddReportPath(string path, bool joinCheck = true, bool notShow = false)
+    {
+        if (!ReportPaths.Exists(p => p != null && p.Path == path))
+        {
+            ReportPaths.Add(new ReportPathItem
             {
-				ReportPaths.Add(new ReportPathItem { Path = path });
-            }
+                Path = path,
+                JoinCheck = joinCheck,
+                NotShow = notShow
+            });
         }
     }
 
@@ -243,25 +250,26 @@ public class AssetDyeingWindow : OdinEditorWindow
         }
 
 
-        string aaa = UnderWhichFolder(relativePath);
+        string folderName = UnderWhichFolder(relativePath, out bool showItem);
+        if(!showItem) return;
         
-        // var folder = System.IO.Path.GetDirectoryName(relativePath)?.Replace("\\", "/") ?? string.Empty;
-
         stringItems.Add(new StringItem
         {
             Aasset = main,
             AssetPath = relativePath,
             NeedMove = false,
-            UnderFolder = aaa
+            UnderFolder = folderName
         });
 
         Repaint();
     }
 
-    private string UnderWhichFolder(string assetPath)
+    private string UnderWhichFolder(string assetPath, out bool showItem)
     {
         foreach (ReportPathItem pathItem in ReportPaths)
         {
+            if(!pathItem.JoinCheck && !pathItem.NotShow) continue;
+            
             // 判断 assetPath 是否位于 pathItem.Path 所代表的文件夹下（仅父文件夹判断）
             if (pathItem == null) continue;
             var folderPath = pathItem.Path;
@@ -304,11 +312,25 @@ public class AssetDyeingWindow : OdinEditorWindow
                 var lastSlashIndex = folderName.LastIndexOf('/');
                 if (lastSlashIndex >= 0 && lastSlashIndex < folderName.Length - 1)
                 {
+                    if (pathItem.NotShow)
+                    {
+                        showItem = false;
+                        return string.Empty;
+                    }
+                    
+                    showItem = true;
                     return folderName.Substring(lastSlashIndex + 1);
                 }
+                if (pathItem.NotShow)
+                {
+                    showItem = false;
+                    return string.Empty;
+                }
+                showItem = true;
                 return folderName;
             }
         }
+        showItem = true;
         return string.Empty;
     }
 }
