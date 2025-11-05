@@ -32,7 +32,7 @@ public class AssetDyeingWindow : OdinEditorWindow
 	[LabelText("Paths (.*.report)")]
 	public List<ReportPathItem> ReportPaths = new List<ReportPathItem>();
 
-    [Button("Add .report File"), PropertyOrder(11)]
+    [Button("Add Folder"), PropertyOrder(11)]
     private void AddReportPathViaPicker()
     {
         AddReportPath();
@@ -78,6 +78,12 @@ public class AssetDyeingWindow : OdinEditorWindow
             Messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>("Assets/Utils/AssetsDyeing/DyeingSo.asset");
         }
         TrySubscribe(Messenger);
+
+        var aa = new ReportPathItem();
+        aa.Path = "Assets/DemoResources/TestAssets/UIs";
+        aa.JoinCheck = true;
+        aa.NotShow = false;
+        ReportPaths.Add(aa);
 
         string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
         string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
@@ -127,14 +133,14 @@ public class AssetDyeingWindow : OdinEditorWindow
     // ===== Helpers for ReportPaths =====
 	private void AddReportPath()
     {
-        var path = EditorUtility.OpenFilePanel("Select .report file", Application.dataPath, "report");
+        var path = EditorUtility.OpenFolderPanel("Select folder", Application.dataPath, "");
         if (!string.IsNullOrEmpty(path))
         {
-            if (!path.EndsWith(".report"))
-            {
-                EditorUtility.DisplayDialog("Invalid File", "Please select a file with .report suffix.", "OK");
-                return;
-            }
+            // if (!path.EndsWith(".report"))
+            // {
+            //     EditorUtility.DisplayDialog("Invalid File", "Please select a file with .report suffix.", "OK");
+            //     return;
+            // }
 			if (!ReportPaths.Exists(p => p != null && p.Path == path))
             {
 				ReportPaths.Add(new ReportPathItem { Path = path });
@@ -154,7 +160,7 @@ public class AssetDyeingWindow : OdinEditorWindow
 	public class ReportPathItem
 	{
 		[HorizontalGroup("rp")]
-		[Sirenix.OdinInspector.FilePath(Extensions = "report", AbsolutePath = true)]
+		[Sirenix.OdinInspector.FilePath(AbsolutePath = true)]
 		[HideLabel]
 		public string Path;
 
@@ -198,42 +204,6 @@ public class AssetDyeingWindow : OdinEditorWindow
             return icon != null ? icon.image : null;
         }
     }
-
-    // Legacy custom drawer removed; TableList handles scrolling
-
-    private static GUIContent s_CheckIcon;
-    private static GUIContent s_CrossIcon;
-
-    private void DrawPathLink(string path)
-    {
-        if (string.IsNullOrEmpty(path))
-        {
-            GUILayout.Label("<empty>", EditorStyles.miniLabel, GUILayout.ExpandWidth(true));
-            return;
-        }
-
-        var style = new GUIStyle(EditorStyles.linkLabel);
-        if (GUILayout.Button(path, style, GUILayout.ExpandWidth(true)))
-        {
-            PingPath(path);
-        }
-    }
-
-    private static void PingPath(string assetPath)
-    {
-        if (string.IsNullOrEmpty(assetPath)) return;
-        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath);
-        if (obj != null)
-        {
-            Selection.activeObject = obj;
-            EditorGUIUtility.PingObject(obj);
-        }
-        else
-        {
-            EditorUtility.DisplayDialog("Asset Not Found", "Cannot load asset at: " + assetPath, "OK");
-        }
-    }
-
     private void AddAsset(string relativePath)
     {
         // Load the asset
@@ -244,27 +214,7 @@ public class AssetDyeingWindow : OdinEditorWindow
             return;
         }
 
-        // Prevent duplicates by AssetPath
-        if (stringItems == null) stringItems = new List<StringItem>();
-        if (stringItems.Exists(it => it != null && string.Equals(it.AssetPath, relativePath, StringComparison.OrdinalIgnoreCase)))
-        {
-            EditorUtility.DisplayDialog("Duplicate", "This asset is already in the list:\n" + relativePath, "OK");
-            return;
-        }
-
-        // Compute folder path for UnderFolder
-        var folder = System.IO.Path.GetDirectoryName(relativePath)?.Replace("\\", "/") ?? string.Empty;
-
-        // Add item
-        stringItems.Add(new StringItem
-        {
-            Aasset = obj,
-            AssetPath = relativePath,
-            NeedMove = false,
-            UnderFolder = folder
-        });
-
-        Repaint();
+        AddAsset(obj);
     }
     private void AddAsset(UnityEngine.Object obj)
     {
@@ -288,20 +238,77 @@ public class AssetDyeingWindow : OdinEditorWindow
         if (stringItems == null) stringItems = new List<StringItem>();
         if (stringItems.Exists(it => it != null && string.Equals(it.AssetPath, relativePath, StringComparison.OrdinalIgnoreCase)))
         {
-            EditorUtility.DisplayDialog("Duplicate", "This asset is already in the list:\n" + relativePath, "OK");
+            // EditorUtility.DisplayDialog("Duplicate", "This asset is already in the list:\n" + relativePath, "OK");
             return;
         }
 
-        var folder = System.IO.Path.GetDirectoryName(relativePath)?.Replace("\\", "/") ?? string.Empty;
+
+        string aaa = UnderWhichFolder(relativePath);
+        
+        // var folder = System.IO.Path.GetDirectoryName(relativePath)?.Replace("\\", "/") ?? string.Empty;
 
         stringItems.Add(new StringItem
         {
             Aasset = main,
             AssetPath = relativePath,
             NeedMove = false,
-            UnderFolder = folder
+            UnderFolder = aaa
         });
 
         Repaint();
+    }
+
+    private string UnderWhichFolder(string assetPath)
+    {
+        foreach (ReportPathItem pathItem in ReportPaths)
+        {
+            // 判断 assetPath 是否位于 pathItem.Path 所代表的文件夹下（仅父文件夹判断）
+            if (pathItem == null) continue;
+            var folderPath = pathItem.Path;
+            if (string.IsNullOrEmpty(folderPath)) continue;
+
+            // 归一化分隔符
+            folderPath = folderPath.Replace("\\", "/");
+            assetPath = string.IsNullOrEmpty(assetPath) ? string.Empty : assetPath.Replace("\\", "/");
+
+            string folderRel;
+            
+            // 判断是相对路径（以Assets开头）还是绝对路径
+            if (folderPath.StartsWith("Assets/", StringComparison.OrdinalIgnoreCase))
+            {
+                // 已经是相对路径，直接使用
+                folderRel = folderPath;
+            }
+            else
+            {
+                // 是绝对路径，需要转换为相对路径
+                var assetsRoot = Application.dataPath.Replace("\\", "/");
+                if (!folderPath.StartsWith(assetsRoot, StringComparison.OrdinalIgnoreCase))
+                {
+                    // 选中的文件夹不在项目 Assets 下，跳过
+                    continue;
+                }
+                folderRel = "Assets" + folderPath.Substring(assetsRoot.Length);
+            }
+
+            // 确保以斜杠结尾，避免类似 Assets/Foo 与 Assets/Foobar 的前缀误判
+            if (!folderRel.EndsWith("/")) folderRel += "/";
+
+            // 同样规范化 assetPath，不允许空
+            if (string.IsNullOrEmpty(assetPath)) continue;
+            // 允许大小写不敏感比较（Windows）
+            if (assetPath.StartsWith(folderRel, StringComparison.OrdinalIgnoreCase))
+            {
+                // 提取文件夹名称（去除末尾斜杠，获取最后一个路径段）
+                var folderName = folderRel.TrimEnd('/');
+                var lastSlashIndex = folderName.LastIndexOf('/');
+                if (lastSlashIndex >= 0 && lastSlashIndex < folderName.Length - 1)
+                {
+                    return folderName.Substring(lastSlashIndex + 1);
+                }
+                return folderName;
+            }
+        }
+        return string.Empty;
     }
 }
