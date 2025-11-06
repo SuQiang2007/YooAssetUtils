@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEditor;
 using Sirenix.OdinInspector;
@@ -85,7 +86,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         // aa.NotShow = false;
         // ReportPaths.Add(aa);
         DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
-        DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, true);
+        DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
 
         string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
         string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
@@ -332,5 +333,130 @@ public class AssetDyeingWindow : OdinEditorWindow
         }
         showItem = true;
         return string.Empty;
+    }
+
+    [Button("BatchMoveAssets"), PropertyOrder(30)]
+    private void BatchMoveAssets()
+    {
+        // 弹出路径选择窗口
+        var selectedPath = EditorUtility.OpenFolderPanel("Select Target Folder", Application.dataPath, "");
+        if (string.IsNullOrEmpty(selectedPath))
+        {
+            return;
+        }
+
+        // 将绝对路径转换为 Unity 相对路径
+        var assetsRoot = Application.dataPath.Replace("\\", "/");
+        selectedPath = selectedPath.Replace("\\", "/");
+        
+        if (!selectedPath.StartsWith(assetsRoot, StringComparison.OrdinalIgnoreCase))
+        {
+            EditorUtility.DisplayDialog("Invalid Path", "The selected folder must be within the project Assets folder.", "OK");
+            return;
+        }
+
+        var targetFolder = "Assets" + selectedPath.Substring(assetsRoot.Length);
+        
+        // 确保目标路径以斜杠结尾
+        if (!targetFolder.EndsWith("/"))
+        {
+            targetFolder += "/";
+        }
+
+        // 收集需要移动的资源
+        var assetsToMove = new List<StringItem>();
+        foreach (var item in stringItems)
+        {
+            if (item != null && item.NeedMove && !string.IsNullOrEmpty(item.AssetPath))
+            {
+                assetsToMove.Add(item);
+            }
+        }
+
+        if (assetsToMove.Count == 0)
+        {
+            EditorUtility.DisplayDialog("No Assets", "No assets with NeedMove = true found.", "OK");
+            return;
+        }
+
+        // 执行移动操作
+        int successCount = 0;
+        int failCount = 0;
+        var failedAssets = new List<string>();
+
+        foreach (var item in assetsToMove)
+        {
+            var sourcePath = item.AssetPath;
+            var fileName = System.IO.Path.GetFileName(sourcePath);
+            var destinationPath = targetFolder + fileName;
+
+            // 检查目标路径是否已存在
+            if (AssetDatabase.LoadAssetAtPath<Object>(destinationPath) != null)
+            {
+                failedAssets.Add($"{sourcePath} -> {destinationPath} (目标已存在)");
+                failCount++;
+                continue;
+            }
+
+            // 移动资源
+            var moveResult = AssetDatabase.MoveAsset(sourcePath, destinationPath);
+            if (string.IsNullOrEmpty(moveResult))
+            {
+                // 移动成功，更新 AssetPath
+                item.AssetPath = destinationPath;
+                item.NeedMove = false;
+                successCount++;
+            }
+            else
+            {
+                failedAssets.Add($"{sourcePath} -> {moveResult}");
+                failCount++;
+            }
+        }
+
+        // 刷新资源数据库
+        AssetDatabase.Refresh();
+
+        // 显示结果
+        if (failCount == 0)
+        {
+            EditorUtility.DisplayDialog("Move Complete", $"Successfully moved {successCount} asset(s) to {targetFolder}", "OK");
+        }
+        else
+        {
+            var failedMessage = $"Moved {successCount} asset(s), failed {failCount} asset(s):\n\n";
+            failedMessage += string.Join("\n", failedAssets.Take(10));
+            if (failedAssets.Count > 10)
+            {
+                failedMessage += $"\n... and {failedAssets.Count - 10} more";
+            }
+            EditorUtility.DisplayDialog("Move Complete (with errors)", failedMessage, "OK");
+        }
+
+        UpdateStringItems();
+        
+        // 刷新窗口
+        Repaint();
+    }
+
+    private void UpdateStringItems()
+    {
+        foreach (StringItem item in stringItems)
+        {
+            if (item == null) continue;
+            
+            item.NeedMove = false;
+            
+            // 刷新 UnderFolder，因为资源路径可能已经变更
+            if (!string.IsNullOrEmpty(item.AssetPath))
+            {
+                string folderName = UnderWhichFolder(item.AssetPath, out bool showItem);
+                item.UnderFolder = folderName;
+            }
+            else
+            {
+                item.UnderFolder = string.Empty;
+            }
+        }
     }
 }
