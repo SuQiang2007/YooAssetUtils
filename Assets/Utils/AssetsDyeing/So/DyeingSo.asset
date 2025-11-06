@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f297ae451894a544969971d4db51624, type: 3}
   m_Name: DyeingSo
   m_EditorClassIdentifier: 
-  MessageData: 'Game Time: 4.98, Count: 28'
+  MessageData: '{"AssetPath":"Assets/DemoResources/TestAssets/Arts/test.jpg"}'

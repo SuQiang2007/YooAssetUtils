@@ -43,7 +43,8 @@ public class AssetDyeingWindow : OdinEditorWindow
     }
     
     [TableList(
-         ShowIndexLabels = false
+         ShowIndexLabels = false,
+         AlwaysExpanded = true
          // IsReadOnly = true
          ), PropertyOrder(20)]
     public List<StringItem> stringItems = new List<StringItem>();
@@ -55,9 +56,10 @@ public class AssetDyeingWindow : OdinEditorWindow
         {
             
         }
-        [LabelText("AssetPath")]
+        [LabelText("AssetObject")]
         [TableColumnWidth(100)]
         [ReadOnly]
+        [PreviewField(30, ObjectFieldAlignment.Left)]
         public UnityEngine.Object Asset;
         
         [LabelText("AssetPath")]
@@ -102,11 +104,11 @@ public class AssetDyeingWindow : OdinEditorWindow
         // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
         // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
         //
-        string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
-        string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
-        AddAsset(assetPath1);
-        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
-        AddAsset(obj);
+        // string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
+        // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
+        // AddAsset(assetPath1);
+        // var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
+        // AddAsset(obj);
     }
 
     private void OnDisable()
@@ -151,10 +153,10 @@ public class AssetDyeingWindow : OdinEditorWindow
         subscribed.Remove(so);
     }
 
-    private void HandleMessage(string message)
+    private void HandleMessage(DyeingObj message)
     {
-        DyeingObj obj = JsonUtility.FromJson<DyeingObj>(message);
-        AddAsset(obj.AssetPath);
+        // DyeingObj obj = JsonUtility.FromJson<DyeingObj>(message);
+        AddAsset(message.Asset);
         Repaint();
     }
 
@@ -249,7 +251,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         var obj = AssetDatabase.LoadAssetAtPath<Object>(relativePath);
         if (obj == null)
         {
-            EditorUtility.DisplayDialog("Load Failed", "Cannot load asset at: " + relativePath, "OK");
+            Debug.LogError("Cannot load asset at: " + relativePath);
             return;
         }
 

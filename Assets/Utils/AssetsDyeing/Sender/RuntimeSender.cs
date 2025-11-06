@@ -16,12 +16,12 @@ public class RuntimeSender : MonoBehaviour
             // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
             DyeingObj obj = new DyeingObj();
             obj.AssetPath = assetPath1;
-            string message = JsonUtility.ToJson(obj);
+            // string message = JsonUtility.ToJson(obj);
             
             // 发送消息
             if (messenger != null)
             {
-                messenger.SendMessageToEditor(message);
+                messenger.SendMessageToEditor(obj);
             }
         }
     }

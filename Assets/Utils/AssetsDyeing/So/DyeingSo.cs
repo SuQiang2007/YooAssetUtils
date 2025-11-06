@@ -6,13 +6,13 @@ using UnityEditor; // 尽管我们在运行时访问，但这是 Unity 的核心
 public class DyeingSo : ScriptableObject
 {
     // 用于存储要传递的数据
-    public string MessageData = "Initial Message";
+    public DyeingObj MessageData;
 
     // 用于触发事件（运行时发送，Editor 接收）
-    public System.Action<string> OnMessageSent;
+    public System.Action<DyeingObj> OnMessageSent;
 
     // 运行时代码调用的方法
-    public void SendMessageToEditor(string message)
+    public void SendMessageToEditor(DyeingObj message)
     {
         Debug.Log("Runtime Sending: " + message);
         MessageData = message;
