@@ -77,6 +77,7 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private readonly HashSet<DyeingSo> subscribed = new HashSet<DyeingSo>();
     private const string ReportPathsPrefsKey = "AssetDyeingWindow_ReportPaths";
+    private const string MessengerPathPrefsKey = "AssetDyeingWindow_MessengerPath";
     private bool isLoadingReportPaths = false;
 
     [System.Serializable]
@@ -89,10 +90,21 @@ public class AssetDyeingWindow : OdinEditorWindow
     {
         if (messenger == null)
         {
-            string dyeingSoPath = GetDyeingSoPath();
-            if (!string.IsNullOrEmpty(dyeingSoPath))
+            // 先尝试从 EditorPrefs 加载保存的路径
+            string savedPath = LoadMessengerPath();
+            if (!string.IsNullOrEmpty(savedPath))
             {
-                messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>(dyeingSoPath);
+                messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>(savedPath);
+            }
+            
+            // 如果从缓存加载失败，尝试使用默认路径
+            if (messenger == null)
+            {
+                string dyeingSoPath = GetDyeingSoPath();
+                if (!string.IsNullOrEmpty(dyeingSoPath))
+                {
+                    messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>(dyeingSoPath);
+                }
             }
         }
         TrySubscribe(messenger);
@@ -121,6 +133,9 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void OnMessengerChanged()
     {
+        // 保存 messenger 路径到 EditorPrefs
+        SaveMessengerPath();
+        
         // Resubscribe when the Messenger reference changes
         foreach (var so in new List<DyeingSo>(subscribed))
         {
@@ -568,6 +583,65 @@ public class AssetDyeingWindow : OdinEditorWindow
         if (isLoadingReportPaths) return;
         
         SaveReportPaths();
+    }
+
+    private void SaveMessengerPath()
+    {
+        try
+        {
+            if (messenger != null)
+            {
+                string path = AssetDatabase.GetAssetPath(messenger);
+                if (!string.IsNullOrEmpty(path))
+                {
+                    EditorPrefs.SetString(MessengerPathPrefsKey, path);
+                }
+                else
+                {
+                    // 如果无法获取路径，清除保存的路径
+                    EditorPrefs.DeleteKey(MessengerPathPrefsKey);
+                }
+            }
+            else
+            {
+                // 如果 messenger 为 null，清除保存的路径
+                EditorPrefs.DeleteKey(MessengerPathPrefsKey);
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to save Messenger path: {e.Message}");
+        }
+    }
+
+    private string LoadMessengerPath()
+    {
+        try
+        {
+            if (EditorPrefs.HasKey(MessengerPathPrefsKey))
+            {
+                string path = EditorPrefs.GetString(MessengerPathPrefsKey);
+                if (!string.IsNullOrEmpty(path))
+                {
+                    // 验证路径是否仍然有效
+                    var asset = AssetDatabase.LoadAssetAtPath<DyeingSo>(path);
+                    if (asset != null)
+                    {
+                        return path;
+                    }
+                    else
+                    {
+                        // 路径无效，清除保存的路径
+                        EditorPrefs.DeleteKey(MessengerPathPrefsKey);
+                    }
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to load Messenger path: {e.Message}");
+        }
+        return string.Empty;
     }
 
     private string GetDyeingSoPath()
