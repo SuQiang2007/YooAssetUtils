@@ -5,6 +5,7 @@ using UnityEditor;
 using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using System.Collections.Generic;
+using UnityEngine.Serialization;
 using Object = UnityEngine.Object;
 
 public class AssetDyeingWindow : OdinEditorWindow
@@ -15,12 +16,13 @@ public class AssetDyeingWindow : OdinEditorWindow
         GetWindow<AssetDyeingWindow>("Asset Dyeing");
     }
 
+    [FormerlySerializedAs("Messenger")]
     [Title("Settings")]
     [InfoBox("Assign the DyeingSo asset if needed. Below you can manage .report paths and the display list.", InfoMessageType.Info)]
     [AssetSelector]
     [OnValueChanged(nameof(OnMessengerChanged), true)]
     [LabelText("Messenger Asset")]
-    public DyeingSo Messenger;
+    public DyeingSo messenger;
 
 	[Title("Report Paths"), PropertyOrder(10)]
 	[ListDrawerSettings(
@@ -74,30 +76,25 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void OnEnable()
     {
-        if (Messenger == null)
+        if (messenger == null)
         {
-            Messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>("Assets/Utils/AssetsDyeing/DyeingSo.asset");
+            messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>("Assets/Utils/AssetsDyeing/DyeingSo.asset");
         }
-        TrySubscribe(Messenger);
+        TrySubscribe(messenger);
 
-        // var aa = new ReportPathItem();
-        // aa.Path = "Assets/DemoResources/TestAssets/UIs";
-        // aa.JoinCheck = true;
-        // aa.NotShow = false;
-        // ReportPaths.Add(aa);
-        DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
-        DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
-
-        string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
-        string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
-        AddAsset(assetPath1);
-        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
-        AddAsset(obj);
+        // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
+        // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
+        //
+        // string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
+        // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
+        // AddAsset(assetPath1);
+        // var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
+        // AddAsset(obj);
     }
 
     private void OnDisable()
     {
-        TryUnsubscribe(Messenger);
+        TryUnsubscribe(messenger);
     }
 
     private void OnMessengerChanged()
@@ -107,7 +104,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         {
             TryUnsubscribe(so);
         }
-        TrySubscribe(Messenger);
+        TrySubscribe(messenger);
         Repaint();
     }
 
@@ -121,7 +118,11 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void TryUnsubscribe(DyeingSo so)
     {
-        if (so == null) return;
+        if (so == null)
+        {
+            Debug.LogError("DyeingSo so is null");
+            return;
+        }
         if (!subscribed.Contains(so)) return;
         so.OnMessageSent -= HandleMessage;
         subscribed.Remove(so);
@@ -129,7 +130,8 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void HandleMessage(string message)
     {
-        // If needed, you can react to messenger events here (e.g., add to Items)
+        DyeingObj obj = JsonUtility.FromJson<DyeingObj>(message);
+        AddAsset(obj.AssetPath);
         Repaint();
     }
 
@@ -338,6 +340,13 @@ public class AssetDyeingWindow : OdinEditorWindow
     [Button("BatchMoveAssets"), PropertyOrder(30)]
     private void BatchMoveAssets()
     {
+        // 检查游戏是否正在运行
+        if (EditorApplication.isPlaying)
+        {
+            EditorUtility.DisplayDialog("Operation Not Allowed", "Cannot move assets while the game is running. Please stop the game first.", "OK");
+            return;
+        }
+
         // 弹出路径选择窗口
         var selectedPath = EditorUtility.OpenFolderPanel("Select Target Folder", Application.dataPath, "");
         if (string.IsNullOrEmpty(selectedPath))
