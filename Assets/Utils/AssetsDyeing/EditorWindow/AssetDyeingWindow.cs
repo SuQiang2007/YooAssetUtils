@@ -32,6 +32,7 @@ public class AssetDyeingWindow : OdinEditorWindow
 		CustomAddFunction = nameof(AddReportPath),
 		CustomRemoveIndexFunction = nameof(RemoveReportPath),
 		OnEndListElementGUI = nameof(AfterReportPathElementGUI))]
+	[OnValueChanged(nameof(OnReportPathsChanged))]
 	[LabelText("Paths (.*.report)")]
 	public List<ReportPathItem> ReportPaths = new List<ReportPathItem>();
 
@@ -57,7 +58,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         [LabelText("AssetPath")]
         [TableColumnWidth(100)]
         [ReadOnly]
-        public UnityEngine.Object Aasset;
+        public UnityEngine.Object Asset;
         
         [LabelText("AssetPath")]
         [TableColumnWidth(100)]
@@ -73,14 +74,29 @@ public class AssetDyeingWindow : OdinEditorWindow
     }
 
     private readonly HashSet<DyeingSo> subscribed = new HashSet<DyeingSo>();
+    private const string ReportPathsPrefsKey = "AssetDyeingWindow_ReportPaths";
+    private bool isLoadingReportPaths = false;
+
+    [System.Serializable]
+    private class ReportPathsData
+    {
+        public List<ReportPathItem> paths = new List<ReportPathItem>();
+    }
 
     private void OnEnable()
     {
         if (messenger == null)
         {
-            messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>("Assets/Utils/AssetsDyeing/DyeingSo.asset");
+            string dyeingSoPath = GetDyeingSoPath();
+            if (!string.IsNullOrEmpty(dyeingSoPath))
+            {
+                messenger = AssetDatabase.LoadAssetAtPath<DyeingSo>(dyeingSoPath);
+            }
         }
         TrySubscribe(messenger);
+
+        // 从本地缓存加载 ReportPaths
+        LoadReportPaths();
 
         // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
         // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
@@ -95,6 +111,9 @@ public class AssetDyeingWindow : OdinEditorWindow
     private void OnDisable()
     {
         TryUnsubscribe(messenger);
+        
+        // 保存 ReportPaths 到本地缓存
+        SaveReportPaths();
     }
 
     private void OnMessengerChanged()
@@ -110,7 +129,11 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void TrySubscribe(DyeingSo so)
     {
-        if (so == null) return;
+        if (so == null)
+        {
+            Debug.LogError("DyeingSo so is null");
+            return;
+        }
         if (subscribed.Contains(so)) return;
         so.OnMessageSent += HandleMessage;
         subscribed.Add(so);
@@ -120,7 +143,6 @@ public class AssetDyeingWindow : OdinEditorWindow
     {
         if (so == null)
         {
-            Debug.LogError("DyeingSo so is null");
             return;
         }
         if (!subscribed.Contains(so)) return;
@@ -155,6 +177,7 @@ public class AssetDyeingWindow : OdinEditorWindow
                 JoinCheck = joinCheck,
                 NotShow = notShow
             });
+            SaveReportPaths(); // 保存到缓存
         }
     }
 
@@ -163,6 +186,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         if (index >= 0 && index < ReportPaths.Count)
         {
             ReportPaths.RemoveAt(index);
+            SaveReportPaths(); // 保存到缓存
         }
     }
 
@@ -170,7 +194,7 @@ public class AssetDyeingWindow : OdinEditorWindow
 	public class ReportPathItem
 	{
 		[HorizontalGroup("rp")]
-		[Sirenix.OdinInspector.FilePath(AbsolutePath = true)]
+		[Sirenix.OdinInspector.FolderPath(AbsolutePath = true)]
 		[HideLabel]
 		public string Path;
 
@@ -258,7 +282,7 @@ public class AssetDyeingWindow : OdinEditorWindow
         
         stringItems.Add(new StringItem
         {
-            Aasset = main,
+            Asset = main,
             AssetPath = relativePath,
             NeedMove = false,
             UnderFolder = folderName
@@ -467,5 +491,92 @@ public class AssetDyeingWindow : OdinEditorWindow
                 item.UnderFolder = string.Empty;
             }
         }
+    }
+
+    private void SaveReportPaths()
+    {
+        Debug.LogError("SaveReportPaths starts");
+        try
+        {
+            var data = new ReportPathsData { paths = ReportPaths };
+            string json = JsonUtility.ToJson(data, true);
+            Debug.LogError($"SaveReportPaths content:{json}");
+            EditorPrefs.SetString(ReportPathsPrefsKey, json);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to save ReportPaths: {e.Message}");
+        }
+    }
+
+    private void LoadReportPaths()
+    {
+        try
+        {
+            isLoadingReportPaths = true;
+            if (EditorPrefs.HasKey(ReportPathsPrefsKey))
+            {
+                string json = EditorPrefs.GetString(ReportPathsPrefsKey);
+                Debug.LogError($"LoadReportPaths content:{json}");
+                if (!string.IsNullOrEmpty(json))
+                {
+                    var data = JsonUtility.FromJson<ReportPathsData>(json);
+                    if (data != null && data.paths != null)
+                    {
+                        ReportPaths = data.paths;
+                    }
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Failed to load ReportPaths: {e.Message}");
+            ReportPaths = new List<ReportPathItem>();
+        }
+        finally
+        {
+            isLoadingReportPaths = false;
+        }
+    }
+
+    private void OnReportPathsChanged()
+    {
+        // 如果正在加载，不触发保存
+        if (isLoadingReportPaths) return;
+        
+        SaveReportPaths();
+    }
+
+    private string GetDyeingSoPath()
+    {
+        // 使用 AssetDatabase 查找当前脚本的路径
+        var scriptType = typeof(AssetDyeingWindow);
+        var guids = AssetDatabase.FindAssets($"t:MonoScript {scriptType.Name}");
+        
+        foreach (var guid in guids)
+        {
+            var scriptPath = AssetDatabase.GUIDToAssetPath(guid);
+            if (string.IsNullOrEmpty(scriptPath)) continue;
+            
+            // 检查是否是当前脚本（通过文件名匹配）
+            if (!scriptPath.EndsWith($"{scriptType.Name}.cs", StringComparison.OrdinalIgnoreCase))
+                continue;
+            
+            // 获取脚本所在目录（EditorWindow 文件夹）
+            string scriptDir = System.IO.Path.GetDirectoryName(scriptPath).Replace("\\", "/");
+            
+            // 获取上级目录（EditorWindow 的上级）
+            string parentDir = System.IO.Path.GetDirectoryName(scriptDir).Replace("\\", "/");
+            
+            // 进入 So 文件夹
+            string soFolder = $"{parentDir}/So";
+            
+            // 构建 DyeingSo.asset 路径
+            string dyeingSoPath = $"{soFolder}/DyeingSo.asset";
+            
+            return dyeingSoPath;
+        }
+        
+        return string.Empty;
     }
 }
