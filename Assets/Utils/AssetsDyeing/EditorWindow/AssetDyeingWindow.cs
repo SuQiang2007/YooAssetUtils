@@ -98,14 +98,15 @@ public class AssetDyeingWindow : OdinEditorWindow
         // 从本地缓存加载 ReportPaths
         LoadReportPaths();
 
+        //Test
         // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
         // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
         //
-        // string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
-        // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
-        // AddAsset(assetPath1);
-        // var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
-        // AddAsset(obj);
+        string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
+        string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
+        AddAsset(assetPath1);
+        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
+        AddAsset(obj);
     }
 
     private void OnDisable()
@@ -198,9 +199,13 @@ public class AssetDyeingWindow : OdinEditorWindow
 		[HideLabel]
 		public string Path;
 
-		[HorizontalGroup("rp", Width = 0.2f)]
-		[LabelText("JoinCheck")]
-		public bool JoinCheck;
+        [HorizontalGroup("rp", Width = 0.2f)]
+        [LabelText("JoinCheck")]
+        public bool JoinCheck;
+
+        [HorizontalGroup("rp", Width = 0.2f)]
+        [LabelText("IncludeChildFolders")]
+        public bool IncludeChildFolders;
 
 		[HorizontalGroup("rp", Width = 0.2f)]
 		[LabelText("NotShow")]
@@ -331,8 +336,27 @@ public class AssetDyeingWindow : OdinEditorWindow
 
             // 同样规范化 assetPath，不允许空
             if (string.IsNullOrEmpty(assetPath)) continue;
-            // 允许大小写不敏感比较（Windows）
-            if (assetPath.StartsWith(folderRel, StringComparison.OrdinalIgnoreCase))
+            
+            // 检查资源路径是否匹配
+            bool isMatch = false;
+            
+            if (pathItem.IncludeChildFolders)
+            {
+                // 包含子文件夹：检查资源路径是否以目标文件夹路径开头
+                isMatch = assetPath.StartsWith(folderRel, StringComparison.OrdinalIgnoreCase);
+            }
+            else
+            {
+                // 不包含子文件夹：检查资源是否直接在目标文件夹下
+                // 获取资源所在的目录路径
+                string assetDir = System.IO.Path.GetDirectoryName(assetPath).Replace("\\", "/");
+                if (!assetDir.EndsWith("/")) assetDir += "/";
+                
+                // 检查资源目录是否等于目标文件夹路径
+                isMatch = string.Equals(assetDir, folderRel, StringComparison.OrdinalIgnoreCase);
+            }
+            
+            if (isMatch)
             {
                 // 提取文件夹名称（去除末尾斜杠，获取最后一个路径段）
                 var folderName = folderRel.TrimEnd('/');
@@ -495,12 +519,10 @@ public class AssetDyeingWindow : OdinEditorWindow
 
     private void SaveReportPaths()
     {
-        Debug.LogError("SaveReportPaths starts");
         try
         {
             var data = new ReportPathsData { paths = ReportPaths };
             string json = JsonUtility.ToJson(data, true);
-            Debug.LogError($"SaveReportPaths content:{json}");
             EditorPrefs.SetString(ReportPathsPrefsKey, json);
         }
         catch (Exception e)
@@ -517,7 +539,6 @@ public class AssetDyeingWindow : OdinEditorWindow
             if (EditorPrefs.HasKey(ReportPathsPrefsKey))
             {
                 string json = EditorPrefs.GetString(ReportPathsPrefsKey);
-                Debug.LogError($"LoadReportPaths content:{json}");
                 if (!string.IsNullOrEmpty(json))
                 {
                     var data = JsonUtility.FromJson<ReportPathsData>(json);
