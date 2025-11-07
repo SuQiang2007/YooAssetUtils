@@ -116,11 +116,11 @@ public class AssetDyeingWindow : OdinEditorWindow
         // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
         // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
         //
-        // string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
-        // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
-        // AddAsset(assetPath1);
-        // var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
-        // AddAsset(obj);
+        string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
+        string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
+        AddAsset(assetPath1);
+        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
+        AddAsset(obj);
     }
 
     private void OnDisable()
@@ -507,18 +507,39 @@ public class AssetDyeingWindow : OdinEditorWindow
             EditorUtility.DisplayDialog("Move Complete (with errors)", failedMessage, "OK");
         }
 
+        RemoveNotShowItems();
+
         UpdateStringItems();
         
         // 刷新窗口
         Repaint();
     }
 
+    private void RemoveNotShowItems()
+    {
+        if (stringItems == null || stringItems.Count == 0) return;
+        if (ReportPaths == null || ReportPaths.Count == 0) return;
+
+        // 从后往前遍历，这样删除时不会影响索引
+        for (int i = stringItems.Count - 1; i >= 0; i--)
+        {
+            var item = stringItems[i];
+            if (item == null || string.IsNullOrEmpty(item.AssetPath)) continue;
+
+            // 使用 UnderWhichFolder 检查该资源是否应该被隐藏
+            UnderWhichFolder(item.AssetPath, out bool showItem);
+            if (!showItem)
+            {
+                // 如果 showItem 为 false，说明该资源被 NotShow 影响了，需要移除
+                stringItems.RemoveAt(i);
+            }
+        }
+    }
+
     private void UpdateStringItems()
     {
         foreach (StringItem item in stringItems)
         {
-            if (item == null) continue;
-            
             item.NeedMove = false;
             
             // 刷新 UnderFolder，因为资源路径可能已经变更

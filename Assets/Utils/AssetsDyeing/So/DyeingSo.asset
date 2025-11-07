@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f297ae451894a544969971d4db51624, type: 3}
   m_Name: DyeingSo
   m_EditorClassIdentifier: 
-  MessageData: '{"AssetPath":"Assets/DemoResources/TestAssets/Arts/test.jpg"}'
+  MessageData:
+    AssetPath: Assets/DemoResources/TestAssets/Arts/test.jpg
+    Asset: {fileID: 0}
