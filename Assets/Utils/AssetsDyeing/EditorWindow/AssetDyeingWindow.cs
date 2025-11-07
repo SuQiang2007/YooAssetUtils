@@ -116,11 +116,11 @@ public class AssetDyeingWindow : OdinEditorWindow
         // DoAddReportPath("Assets/DemoResources/TestAssets/UIs", true, false);
         // DoAddReportPath("Assets/DemoResources/TestAssets/Arts", false, false);
         //
-        string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
-        string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
-        AddAsset(assetPath1);
-        var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
-        AddAsset(obj);
+        // string assetPath1 = "Assets/DemoResources/TestAssets/Arts/test.jpg";
+        // string assetPath2 = "Assets/DemoResources/TestAssets/UIs/ImageTest.prefab";
+        // AddAsset(assetPath1);
+        // var obj = AssetDatabase.LoadAssetAtPath<Object>(assetPath2);
+        // AddAsset(obj);
     }
 
     private void OnDisable()
